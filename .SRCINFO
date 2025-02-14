@@ -5,6 +5,7 @@ pkgbase = freedata-gui
 	url = https://wiki.freedata.app
 	arch = x86_64
 	license = GPL-3.0
+	makedepends = npm
 	depends = freedata-server
 	source = https://github.com/DJ2LS/FreeDATA/archive/refs/tags/v0.16.9.tar.gz
 	sha256sums = 962b393492fd158acf7d41d9211aa24409b98fe1fb0b96ae89e9b919d583d711

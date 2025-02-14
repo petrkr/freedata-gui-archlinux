@@ -8,7 +8,7 @@ arch=('x86_64')
 url="https://wiki.freedata.app"
 license=('GPL-3.0')
 depends=('freedata-server')
-makedepends=()
+makedepends=('npm')
 
 source=("https://github.com/DJ2LS/FreeDATA/archive/refs/tags/v${pkgver}.tar.gz")
 
