@@ -1,7 +1,7 @@
 # Maintainer: Petr Kracik <petrkr@petrkr.net>
 
 pkgname=freedata-gui
-pkgver=0.16.9
+pkgver=0.16.11
 pkgrel=1
 pkgdesc="GUI for FreeDATA. A versatile, open-source platform designed specifically for HF communications, leveraging Codec2 data modes for robust global digital communication. It features a network-based server-client architecture, a REST API, multi-platform compatibility, and a messaging system."
 arch=('x86_64')
@@ -12,7 +12,7 @@ makedepends=('npm')
 
 source=("https://github.com/DJ2LS/FreeDATA/archive/refs/tags/v${pkgver}.tar.gz")
 
-sha256sums=('962b393492fd158acf7d41d9211aa24409b98fe1fb0b96ae89e9b919d583d711')
+sha256sums=('f7485e5bd45cd3fa99205bfde6f36314fddb1d7f566fde62da09a609f394272b')
 
 build() {
 	cd "${srcdir}"
