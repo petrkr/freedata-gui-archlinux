@@ -1,13 +1,13 @@
 pkgbase = freedata-gui
 	pkgdesc = GUI for FreeDATA. A versatile, open-source platform designed specifically for HF communications, leveraging Codec2 data modes for robust global digital communication. It features a network-based server-client architecture, a REST API, multi-platform compatibility, and a messaging system.
-	pkgver = 0.16.11
+	pkgver = 0.17.3
 	pkgrel = 1
 	url = https://wiki.freedata.app
 	arch = x86_64
 	license = GPL-3.0
 	makedepends = npm
 	depends = freedata-server
-	source = https://github.com/DJ2LS/FreeDATA/archive/refs/tags/v0.16.11.tar.gz
-	sha256sums = f7485e5bd45cd3fa99205bfde6f36314fddb1d7f566fde62da09a609f394272b
+	source = https://github.com/DJ2LS/FreeDATA/archive/refs/tags/v0.17.3-beta.tar.gz
+	sha256sums = 322d31d10d4a8e676769ebdfcb78004916de35f020ff56b96d1d2c0ddd7fddbc
 
 pkgname = freedata-gui
